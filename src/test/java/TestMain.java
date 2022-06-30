@@ -1,3 +1,7 @@
+import com.udemy.java.interfacepolymorphism.Alarm;
+import com.udemy.java.interfacepolymorphism.Clock;
+import com.udemy.java.interfacepolymorphism.GoogleMini;
+import com.udemy.java.interfacepolymorphism.Iphone;
 import com.udemy.java.polymorphism.*;
 
 public class TestMain {
@@ -20,11 +24,25 @@ public class TestMain {
         d = new Dog();
         test(d);
 
+        System.out.println("-------------------------------------------------");
+        System.out.println("-------------------------------------------------");
+
+        GoogleMini g = new GoogleMini();
+        Iphone i = new Iphone();
+        Clock c = new Clock();
+        alarmTest(i);
+        alarmTest(c);
+        alarmTest(g);
+
     }
 
     private static void test(Animal d){
         d.makeSound();
         d.walk();
+        d.eat();
     }
 
+    private static void alarmTest(Alarm a){
+        a.setAlarm();
+    }
 }
