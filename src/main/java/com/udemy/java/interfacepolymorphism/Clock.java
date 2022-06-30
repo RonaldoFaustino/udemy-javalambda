@@ -11,4 +11,9 @@ public class Clock implements Alarm{
     public void setAlarm(){
         System.out.println("Clock = Setting an alarm @7:30AM");
     }
+
+
+    public void triggeralarm() {
+
+    }
 }

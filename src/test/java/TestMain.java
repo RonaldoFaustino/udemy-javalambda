@@ -27,6 +27,7 @@ public class TestMain {
         System.out.println("-------------------------------------------------");
         System.out.println("-------------------------------------------------");
 
+
         GoogleMini g = new GoogleMini();
         Iphone i = new Iphone();
         Clock c = new Clock();
@@ -44,5 +45,6 @@ public class TestMain {
 
     private static void alarmTest(Alarm a){
         a.setAlarm();
+        a.triggeralarm();
     }
 }

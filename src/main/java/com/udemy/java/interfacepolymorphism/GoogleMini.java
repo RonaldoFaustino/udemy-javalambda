@@ -9,4 +9,8 @@ public class GoogleMini implements Alarm{
     public void setAlarm(){
         System.out.println("GoogleMini = Setting an alarm @7:30AM");
     }
+
+    public void triggeralarm() {
+
+    }
 }

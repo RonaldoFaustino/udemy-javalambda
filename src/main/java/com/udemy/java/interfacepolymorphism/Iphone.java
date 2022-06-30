@@ -13,4 +13,8 @@ public class Iphone implements Alarm{
     public void setAlarm(){
         System.out.println("Iphone = Setting an alarm @7:30AM");
     }
+
+    public void triggeralarm() {
+
+    }
 }
