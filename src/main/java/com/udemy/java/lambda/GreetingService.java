@@ -6,5 +6,5 @@ package com.udemy.java.lambda;
 @FunctionalInterface
 public interface GreetingService {
 
-    void greet(String name);
+    void greet(String fistName, String lastName, int age);
 }
